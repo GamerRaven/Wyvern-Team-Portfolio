@@ -1,0 +1,167 @@
+.navbar {
+	background-color: #000e1c;
+	height: 10rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+//     padding-top: 1rem;
+// 	padding-bottom: 1rem;
+ }
+
+.nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	max-width: 1500px;
+}
+
+.main-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-logo {
+	align-items: center;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	flex-grow: 1;
+	position: absolute;
+	left: 14rem;
+
+	&__icon {
+		width: 8rem;
+	}
+}
+
+.fa-bars,
+.fa-times {
+	color: #00f2b6;
+}
+
+.nav-menu {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	gap: 5rem;
+
+    &>*{
+        z-index: 100000;
+    }
+}
+
+.nav-links {
+    color: #00f2b6;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	font-size: 2.2rem;
+	font-weight: 600;
+	height: 100%;
+}
+
+.active-links{
+    color: #FCFFE7;
+    text-decoration: none;
+	padding: 0.5rem 1rem;
+	font-size: 2.2rem;
+	font-weight: 600;
+	height: 100%;
+}
+
+.fa-code {
+	margin-left: 1rem;
+}
+
+//   .nav-item:not(:last-child) {
+//     margin-right: 3rem;
+//   }
+
+//   .nav-item:not(:first-child){
+//     margin-left: 3rem;
+//   }
+
+.nav-item {
+	line-height: 2;
+	text-align: center;
+}
+
+.nav-item:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width 0.7s ease;
+}
+
+.nav-item:hover:after {
+	width: 100%;
+	background: #00f2b6;
+}
+
+.nav-item.active {
+	color: #ffdd40;
+	border: 1px solid #ffdd40;
+}
+
+.nav-icon {
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
+	.navbar{
+		padding-top: 0;
+	}
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		border-top: 1pxsolid #fff;
+		position: absolute;
+		top: 10rem;
+		left: -110%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+
+	.nav-menu.active {
+        background-color: rgba(0, 14, 28, .8);
+		backdrop-filter: blur(5.5px);
+		left: 0px;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1000;
+		gap: 0;
+	}
+	.nav-item .active {
+		color: #ffdd40;
+		border: none;
+	}
+	.nav-links {
+		padding: 1.5rem;
+		width: 100%;
+		display: table;
+	}
+
+	.nav-logo {
+		left: 1rem;
+	}
+
+	.nav-icon {
+		display: block;
+		position: absolute;
+		right: 4rem;
+		font-size: 4rem;
+		cursor: pointer;
+	}
+}

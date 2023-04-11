@@ -1,0 +1,131 @@
+.portfolio{
+    text-align: center;
+    &__header{
+        position: relative;
+        display: flex;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2b6;
+        margin-top: -1px;
+        border-bottom-left-radius: 50em 10%;
+        border-bottom-right-radius: 50em 10%;
+        overflow: hidden;
+        min-height: 35vh;
+
+        
+        &__heading{
+            font-size: 3.2rem;
+            font-weight: 600;
+            letter-spacing: .7rem;
+        }
+
+        &__description{
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 2rem;
+            letter-spacing: .1rem;
+        }
+
+        .category-menu{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            z-index: 100;
+            margin-top: 8rem;
+            justify-content: center;
+            align-items: center;
+
+            .btn-category{
+                font-size: 2rem;
+                padding: 1.3rem 2rem;
+                border-radius: 4rem;
+                background-color: white;
+                font-weight: 500;
+                letter-spacing: .1rem;
+                min-width: 14rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #000e1c;
+                cursor: pointer;
+            }
+
+            .btn-active{
+                background-color: #000e1c;
+                color: white;
+            }
+        }
+    }
+}
+
+.cat-display{
+    padding-top: 10rem;
+    width: 100%;
+    padding-bottom: 45rem;
+    background-image: url("../../assets/bgfooter.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+
+    
+}
+
+.btn-active{
+    background-color: #000e1c;
+    color: white;
+}
+
+.tsparticles-canvas-el {
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .cat-display{
+        padding-top: 6rem;
+        width: 100%;
+        padding-bottom: 30rem;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cat-display{
+        padding-top: 2rem;
+        width: 100%;
+        padding-bottom: 15rem;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .cat-display{
+        padding-top: 1rem;
+        width: 100%;
+        padding-bottom: 8rem;
+        
+    }
+}
+
+
+// Desktop Animatins Only
+@media screen and (min-width: 600px){
+    .cat-display{
+        & div:not(.design, .minecraft, .discord, .website){
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.cat-display{
+    & div:not(.design, .minecraft, .discord, .website){
+        transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

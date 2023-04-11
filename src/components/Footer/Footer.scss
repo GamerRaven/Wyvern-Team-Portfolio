@@ -1,0 +1,35 @@
+// Footer Section
+
+.footer {
+	height: 20vh;
+	background-position: top;
+	padding-bottom: 8rem;
+	background-color: #00f2b6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 2rem;
+	margin-top: -1px;
+
+	&__copyrights-text {
+		font-size: 2rem;
+		color: rgb(0, 0, 0, 0.7);
+	}
+
+	&__socials {
+		display: flex;
+		align-items: center;
+		gap: 4rem;
+
+		&__icon {
+			width: 5rem;
+			cursor: pointer;
+			transition: all 0.2s;
+
+			&:hover {
+				transform: translateY(-2px);
+			}
+		}
+	}
+}

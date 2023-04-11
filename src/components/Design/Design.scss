@@ -1,0 +1,108 @@
+.design {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 10rem 12rem;
+	gap: 4rem;
+
+	z-index: 1000;
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #00070e;
+		padding: 3rem;
+		border-radius: 2rem;
+		gap: 1rem;
+		color: #000e1c;
+
+		&__image {
+			width: 100%;
+			border-radius: 1rem;
+			height: 75%;
+			object-fit: cover;
+		}
+
+		&__heading {
+			font-weight: 600;
+			font-size: 3.2rem;
+            color: white;
+		}
+
+		&__mini {
+			width: 15%;
+			border-radius: 0.4rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.design {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		padding: 6rem 6rem;
+		gap: 4rem;
+
+		z-index: 1000;
+
+		&__item {
+			&__heading {
+				font-weight: 600;
+				font-size: 3rem;
+			}
+
+			&__mini {
+				width: 15%;
+				border-radius: 0.4rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.design {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 5rem 5rem;
+		gap: 4rem;
+
+		z-index: 1000;
+
+		&__item {
+			&__heading {
+				font-weight: 600;
+				font-size: 3rem;
+			}
+
+			&__mini {
+				width: 15%;
+				border-radius: 0.4rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.design {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		padding: 8rem 5rem 10rem;
+		gap: 4rem;
+
+		z-index: 1000;
+
+		&__item {
+			&__heading {
+				font-weight: 600;
+				font-size: 3rem;
+			}
+
+			&__mini {
+				width: 15%;
+				border-radius: 0.4rem;
+			}
+		}
+	}
+}
+

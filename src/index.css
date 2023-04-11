@@ -1,0 +1,107 @@
+html {
+	font-size: 7px;
+}
+
+body {
+	font-family: "Roboto";
+	background-color: #000e1c;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Utilities */
+.padding {
+	padding-left: 18rem;
+	padding-right: 18rem;
+}
+
+@media screen and (min-width: 600px) {
+    .card-hover:hover{
+        transform: scale(1.05);
+        
+    }
+    .btn:hover{
+        background-color: #00c997;
+    }
+}
+
+
+/* General Components */
+
+.btn {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 57rem;
+	font-weight: 600;
+	font-size: 3.2rem;
+	border-radius: 1.7rem;
+    padding: 4rem 16rem;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.btn-primary{
+    background: #00f2b6;
+    color: black;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 968px){
+    html{
+        font-size: 8px;
+    }
+
+    .padding{
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .btn{
+        padding: 3rem 10rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    html{
+        font-size: 7px;
+    }
+
+    .padding{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .btn{
+        padding: 2.8rem 8rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    html{
+        font-size: 6px;
+    }
+
+    .padding{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .btn{
+        padding: 2rem 6rem;
+    }
+}
+
+
+
+
