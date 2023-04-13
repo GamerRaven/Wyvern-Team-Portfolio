@@ -18,7 +18,7 @@
 ## Installation 
 Download the files and run the following commands.
 ```bash
-cd Discord-Wallet-Bot-main #You can rename the folder
+cd Wyvern-Team-Portfolio-main #You can rename the folder
 npm install
 npm run dev
 ```
