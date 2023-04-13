@@ -5,7 +5,7 @@
 
 ![](https://raw.githubusercontent.com/GamerRaven/Wyvern-React-Website/main/README/wyvern.gif)
 
-<img src="https://raw.githubusercontent.com/GamerRaven/Wyvern-Team-Portfolio/main/README/tablet-view.png"  width="20%">
+<img align="center" src="https://raw.githubusercontent.com/GamerRaven/Wyvern-Team-Portfolio/main/README/tablet-view.png"  width="40%">
 
 ## Features
 - Fully Responsive 
