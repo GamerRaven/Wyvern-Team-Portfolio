@@ -1,14 +1,17 @@
-# Wyvern React Website
-A high-quality react website for teams and studios
-
-[Live Demo](https://wyvernteam.com)
+<h2 align="center">
+  Wyvern Team Portfolio<br/>
+  <a href="https://wyvernteam.com" target="_blank">Live Demo</a>
+</h2>
 
 ![](https://raw.githubusercontent.com/GamerRaven/Wyvern-React-Website/main/README/wyvern.gif)
+
+<img src="https://raw.githubusercontent.com/GamerRaven/Wyvern-Team-Portfolio/main/README/tablet-view.png"  width="20%">
 
 ## Features
 - Fully Responsive 
 - Multi-Page Templates
 - Easily Customizable
+- Fast Performance
 
 ## Installation 
 Download the files and run the following commands.
