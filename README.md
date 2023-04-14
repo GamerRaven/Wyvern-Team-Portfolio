@@ -24,6 +24,6 @@ npm run dev
 ```
 
 ## Extra
-Feel free to post any suggestion / issues in the Issues tab
+Feel free to post any suggestion / issue in the Issues tab
 
 If you like the project, please leave a ⭐ :) Thanks!
