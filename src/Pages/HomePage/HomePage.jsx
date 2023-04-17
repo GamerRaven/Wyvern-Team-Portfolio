@@ -317,7 +317,7 @@ function HomePage(props) {
                                         Ipsum has been the industry's standard
                                         dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type
-                                        and scrambled it to
+                                        and scrambled it to form a great text body.
                                     </p>
                                     <h2 className="reviews__carousel__item__name">
                                         Jason Mark
