@@ -61,15 +61,6 @@ function Navbar(props) {
 							</NavLink>
 						</li>
                         <li className="nav-item">
-							{/* <NavLink
-								to="/join"
-                                exact
-								className="nav-links"
-                                activeClassName="active-links"
-								onClick={click ? handleClick : null}
-							>
-								Join Discord
-							</NavLink> */}
                             <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Join Discord</a>
 						</li>
 					</ul>
