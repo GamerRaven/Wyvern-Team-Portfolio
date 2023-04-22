@@ -23,6 +23,9 @@ npm install
 npm run dev
 ```
 
+# Contributors
+[Moazzam Ali](https://github.com/moazzam-ali)
+
 ## Extra
 Feel free to post any suggestion / issue in the Issues tab
 
