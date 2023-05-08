@@ -14,6 +14,7 @@
 - Multi-Page Templates
 - Easily Customizable
 - Fast Performance
+- Modern Design
 
 ## Installation 
 Download the files and run the following commands.
