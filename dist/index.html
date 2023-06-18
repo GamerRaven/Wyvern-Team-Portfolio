@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+
+		<!-- Google Fonts (Roboto) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font awesome -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+		/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Primary Meta Tags -->
+		<title>Wyvern Team - Professional Service Provider</title>
+		<meta name="title" content="Wyvern Team - Professional Service Provider">
+		<meta name="description" content="Wyvern is a revolutionary service team that offers over 10 different services and brings high quality, affordable rates, and efficiency together.">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Wyvern Team - Professional Service Provider">
+		<meta property="og:description" content="Wyvern is a revolutionary service team that offers over 10 different services and brings high quality, affordable rates, and efficiency together.">
+		<meta property="og:image" content="https://i.imgur.com/Y3TXNTN.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:title" content="Wyvern Team - Professional Service Provider">
+		<meta property="twitter:description" content="Wyvern is a revolutionary service team that offers over 10 different services and brings high quality, affordable rates, and efficiency together.">
+		<meta property="twitter:image" content="https://i.imgur.com/Y3TXNTN.png">
+
+		<style>
+			body {
+				margin: 0;
+				background: #000e1c;
+			}
+
+			@keyframes arrow-spin {
+				100% {
+					transform: rotate(179deg);
+				}
+			}
+
+			@-webkit-keyframes arrow-spin {
+				100% {
+					-webkit-transform: rotate(179deg);
+				}
+			}
+
+			.psoload,
+			.psoload *,
+			.psoload *:before,
+			.psoload *:after {
+				box-sizing: border-box;
+				transition: all 0.3s;
+				-webkit-transition: all 0.3s;
+			}
+
+			.psoload {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				height: 150px;
+				width: 150px;
+			}
+
+			.psoload .straight,
+			.psoload .curve {
+				position: absolute;
+				top: 17.5%;
+				left: 17.5%;
+				width: 65%;
+				height: 65%;
+				border-radius: 100%;
+				animation: arrow-spin 0.85s cubic-bezier(0.2, 0.8, 0.9, 0.1)
+					infinite;
+				-webkit-animation: arrow-spin 0.85s
+					cubic-bezier(0.2, 0.8, 0.9, 0.1) infinite;
+			}
+
+			.psoload .straight:before,
+			.psoload .straight:after {
+				content: "";
+				position: absolute;
+				width: 15%;
+				border-bottom: 3px solid #00f2b6;
+				transform: rotate(45deg);
+				-webkit-transform: rotate(45deg);
+			}
+
+			.psoload .straight:before {
+				top: 5px;
+				left: 5px;
+			}
+
+			.psoload .straight:after {
+				bottom: 5px;
+				right: 5px;
+			}
+
+			.psoload .curve:before,
+			.psoload .curve:after {
+				content: "";
+				position: absolute;
+				width: 45px;
+				height: 10px;
+				border: solid 3px transparent;
+				border-top-color: #00f2b6;
+				border-radius: 50%/10px 10px 0 0;
+				z-index: 90001;
+			}
+
+			.psoload .curve:before {
+				transform: rotate(-63deg) translateX(-27px) translateY(-4px);
+				-webkit-transform: rotate(-63deg) translateX(-27px)
+					translateY(-4px);
+			}
+
+			.psoload .curve:after {
+				bottom: 5px;
+				right: 5px;
+				transform: rotate(115deg) translateX(-26px) translateY(-12px);
+				-webkit-transform: rotate(115deg) translateX(-26px)
+					translateY(-12px);
+			}
+
+			.psoload .center {
+				position: absolute;
+				top: 20%;
+				left: 20%;
+				width: 60%;
+				height: 60%;
+				border-radius: 100%;
+				border: 3px solid #00f2b6;
+			}
+
+			.psoload .inner {
+				position: absolute;
+				top: 25%;
+				left: 25%;
+				width: 50%;
+				height: 50%;
+				border-radius: 100%;
+				animation: arrow-spin 0.85s cubic-bezier(0.2, 0.8, 0.9, 0.1)
+					infinite reverse;
+				-webkit-animation: arrow-spin 0.85s
+					cubic-bezier(0.2, 0.8, 0.9, 0.1) infinite reverse;
+			}
+
+			.psoload .inner:before,
+			.psoload .inner:after {
+				content: "";
+				position: absolute;
+				width: 0;
+				height: 0;
+				border: 6px solid transparent;
+				border-bottom-width: 11px;
+				border-bottom-color: #00f2b6;
+			}
+
+			.psoload .inner:before {
+				top: 12px;
+				left: 12px;
+				transform: rotate(128deg);
+				-webkit-transform: rotate(128deg);
+			}
+
+			.psoload .inner:after {
+				bottom: 12px;
+				right: 12px;
+				transform: rotate(-48deg);
+				-webkit-transform: rotate(-48deg);
+			}
+		</style>
+		<script type="module" crossorigin src="/assets/index.7975caad.js"></script>
+		<link rel="stylesheet" href="/assets/index.a65f5411.css">
+	</head>
+	<body>
+		<!-- Preloader -->
+		<div id="loader" class="psoload">
+			<div class="straight"></div>
+			<div class="curve"></div>
+			<div class="center"></div>
+			<div class="inner"></div>
+		</div>
+		<div id="root"></div>
+		
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js"
+			integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
